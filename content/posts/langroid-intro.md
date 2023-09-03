@@ -89,3 +89,19 @@ msg = LLMMessage(
         role=Role.USER,
       )
 ```
+
+## Test math notation
+
+A nice equation is $e^{i\pi} + 1 = 0$, which is known as Euler's identity.
+Here is a cool equation too, \(e = mc^2\), and in display mode:
+
+\[
+e = mc^2
+\]
+
+Or this way 
+
+$$
+e = mc^2
+$$
+
