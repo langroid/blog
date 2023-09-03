@@ -80,3 +80,12 @@ LLMs and vector-stores.
   the LLM so it can fix it!
 
 
+## Test code snippets
+
+```python
+from langroid.language_models.base import LLMMessage, Role
+msg = LLMMessage(
+        content="what is the capital of Bangladesh?",
+        role=Role.USER,
+      )
+```
