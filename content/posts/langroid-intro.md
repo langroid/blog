@@ -1,7 +1,7 @@
 +++
 title = 'Langroid Intro'
 date = 2023-09-02T21:34:34-04:00
-draft = true
+draft = false
 +++
 
 # Langroid: Harness LLMs with Multi-Agent Programming
