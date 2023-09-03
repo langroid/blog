@@ -1,7 +1,7 @@
 +++
 title = 'Test'
 date = 2023-09-03T10:47:51-04:00
-draft = False
+draft = false
 +++
 
 # Test code snippets
