@@ -1,7 +1,21 @@
+{{- /* Head custom content area start */ -}}
+{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
+{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- /* Head custom content area end */ -}}
+
+
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_CHTML">
-</script>
+{{ partial "helpers/mathjax.html" . }}
+<!--<script type="text/javascript" async-->
+<!--MathJax = {-->
+<!--tex: {-->
+<!--inlineMath: [['$', '$'], ['\\(', '\\)']]-->
+<!--}-->
+<!--};-->
+<!--</script>-->
+<!--<script type="text/javascript" async-->
+<!--        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">-->
+<!--</script>-->
 {{- /* Footer custom content area end */ -}}
 
