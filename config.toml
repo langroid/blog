@@ -1,0 +1,19 @@
+baseURL = 'https://langroid.github.io/'
+languageCode = 'en-us'
+title = 'Langroid Blog'
+theme = 'PaperMod'
+
+
+[params]
+author = "Chris Hart"
+description = "Langroid news and musings"
+
+[[params.social]]
+icon = "github"
+name = "GitHub"
+url = "https://github.com/langroid/langroid"
+
+[[params.social]]
+icon = "twitter"
+name = "Twitter"
+url = "https://twitter.com/_ChrisJHart"
