@@ -1,4 +1,4 @@
-baseURL = 'https://langroid.github.io/'
+baseURL = 'https://langroid.github.io/blog'
 languageCode = 'en-us'
 title = 'Langroid Blog'
 theme = 'PaperMod'
