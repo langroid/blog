@@ -22,6 +22,7 @@ framework*. In particular, there is often a need to maintain multiple LLM
 conversations, each instructed in different ways, and "responsible" for
 different aspects of a task.
 
+
 An *agent* is a convenient abstraction that encapsulates LLM conversation
 state, along with access to long-term memory (vector-stores) and tools (a.k.a functions
 or plugins). Thus a **Multi-Agent Programming** framework is a natural fit
