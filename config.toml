@@ -5,7 +5,7 @@ theme = 'PaperMod'
 
 
 [params]
-author = "Chris Hart"
+author = "Prasad Chalasani"
 description = "Langroid news and musings"
 
 [[params.social]]
@@ -16,4 +16,4 @@ url = "https://github.com/langroid/langroid"
 [[params.social]]
 icon = "twitter"
 name = "Twitter"
-url = "https://twitter.com/_ChrisJHart"
+url = "https://twitter.com/pchalasani"
